@@ -1,0 +1,14 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCXEs116WDrSW-Zhs2AdxTHooRNYSxW3WU",
+  authDomain: "raposoxiter-38088.firebaseapp.com",
+  projectId: "raposoxiter-38088",
+  storageBucket: "raposoxiter-38088.firebasestorage.app",
+  messagingSenderId: "367716189846",
+  appId: "1:367716189846:web:53940bce8ca57e6b9924b7"
+};
+
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
